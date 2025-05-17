@@ -59,7 +59,7 @@ export function MainMenu() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
+          <NavigationMenuTrigger>Home</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
               <li className="row-span-3">
@@ -72,7 +72,7 @@ export function MainMenu() {
                       <AvatarImage src="https://github.com/shadcn.png" />
                     </Avatar>
                     <div className="mb-2 mt-4 text-lg font-medium">
-                      Perfil
+                      👨‍💻 Perfil
                     </div>
                     <p className="text-sm leading-tight text-muted-foreground">
                       Desenvolvedor Full Stack e entusiasta de tecnologia
@@ -80,19 +80,19 @@ export function MainMenu() {
                   </Link>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="/docs" title="Introdução">
-                Conheça mais sobre o meu trabalho
+              <ListItem href="/docs" title="📝 Introdução">
+                Um pequeno trecho de quem sou eu
               </ListItem>
-              <ListItem href="/docs/installation" title="Projetos">
+              <ListItem href="/docs/installation" title="🚀 Projetos">
                 Conheça meus projetos
               </ListItem>
-              <ListItem href="/docs/primitives/typography" title="Contato">
+              <ListItem href="/docs/primitives/typography" title="📬 Contato">
                 Entre em contato comigo
               </ListItem>
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
-        <NavigationMenuItem>
+       {/*  <NavigationMenuItem>
           <NavigationMenuTrigger>Components</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
@@ -107,11 +107,16 @@ export function MainMenu() {
               ))}
             </ul>
           </NavigationMenuContent>
-        </NavigationMenuItem>
+        </NavigationMenuItem> */}
         <NavigationMenuItem>
-          <Link href="/docs" passHref>
+          <Link 
+            href="https://github.com/Matheusclay/dev-portfolio" 
+            passHref 
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Documentation
+              GitHub
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
@@ -121,7 +126,7 @@ export function MainMenu() {
 }
 
 const ListItem = React.forwardRef<
-  React.ElementRef<"a">,
+  HTMLAnchorElement,
   React.ComponentPropsWithoutRef<"a"> & { href: string }
 >(({ className, title, children, ...props }, ref) => {
   return (
