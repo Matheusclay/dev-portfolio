@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import Link from "next/link"
+import { ModeToggle } from "./mode-toggle"
 
 import { cn } from "@/lib/utils"
 import {
@@ -119,6 +120,9 @@ export function MainMenu() {
               GitHub
             </NavigationMenuLink>
           </Link>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <ModeToggle />
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
