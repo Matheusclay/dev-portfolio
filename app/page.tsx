@@ -8,6 +8,7 @@ export default function Home() {
       <div className="justify-center items-center flex h-[10vh] ">
         <MainMenu  />
       </div>
+      <Welcome/>
     </main>
   );
 }
