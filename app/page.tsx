@@ -1,10 +1,13 @@
-import Image from "next/image";
+import { MainMenu } from "./components/MainMenu"
 import { Welcome } from "./Welcome";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <main>
+      <div className="justify-center items-center flex h-[10vh] ">
+        <MainMenu  />
+      </div>
+    </main>
   );
 }
