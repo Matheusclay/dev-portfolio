@@ -1,5 +1,6 @@
 import { MainMenu } from "./components/MainMenu"
 import { Welcome } from "./Welcome";
+import {Carousel_sobremim} from "./components/Carousel_sobremim";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,6 +10,9 @@ export default function Home() {
         <MainMenu  />
       </div>
       <Welcome/>
+      <div>
+      <Carousel_sobremim/>
+      </div>
     </main>
   );
 }
