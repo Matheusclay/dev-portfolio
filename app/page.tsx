@@ -1,5 +1,6 @@
 import { MainMenu } from "./components/MainMenu"
 import { Welcome } from "./Welcome";
+import { Projects } from "./components/projects"
 import Image from "next/image";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
         <MainMenu  />
       </div>
       <Welcome/>
+      <Projects />
     </main>
   );
 }
