@@ -1,3 +1,4 @@
+// app/components/footer.tsx
 "use client";
 
 import * as React from "react";
@@ -20,7 +21,8 @@ export function Footer() {
   return (
     <footer
       className={cn(
-        "w-full bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700",
+        // Fundo cinza claro no modo normal, ainda mantém dark mode no modo escuro
+        "w-full bg-gray-100 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700",
         "pt-8 pb-6 px-4"
       )}
     >
@@ -119,3 +121,4 @@ export function Footer() {
     </footer>
   );
 }
+
