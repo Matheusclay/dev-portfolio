@@ -1,7 +1,7 @@
 import { MainMenu } from "./components/MainMenu"
 import { Welcome } from "./Welcome";
 import { Projects } from "./components/projects"
-import Image from "next/image";
+import { AssistantBot } from "./components/Assistant-bot"
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       </div>
       <Welcome/>
       <Projects />
+      <AssistantBot />
     </main>
   );
 }
