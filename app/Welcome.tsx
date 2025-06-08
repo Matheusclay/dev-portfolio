@@ -21,15 +21,15 @@ export function Welcome() {
       <div className="text-center lg:text-start space-y-6">
         <div className="text-4xl md:text-5xl font-bold">
           <h1 className="inline">
+            Seja{" "}
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-              Seja
-            </span>{" "}
-            Bem Vindo
+              Bem Vindo
+            </span>
           </h1>{" "}
-          para{" "}
+          para o{" "}
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              Nosso Portifólio
+              Meu Portifólio
             </span>{" "}
             de desenvolvedor
           </h2>
