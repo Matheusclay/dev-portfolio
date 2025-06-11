@@ -10,7 +10,7 @@ import {
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
-import { Check } from "lucide-react";
+import { Check, Code2 } from "lucide-react";
 import { Lightbulb } from "lucide-react";
 import { Linkedin } from "lucide-react";
 import { Github } from "lucide-react";
@@ -21,15 +21,15 @@ export function Welcome() {
       <div className="text-center lg:text-start space-y-6">
         <div className="text-4xl md:text-5xl font-bold">
           <h1 className="inline">
+            Seja{" "}
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-              Seja
-            </span>{" "}
-            Bem Vindo
+              Bem Vindo
+            </span>
           </h1>{" "}
-          para{" "}
+          para o{" "}
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              Nosso Portifólio
+              Meu Portifólio
             </span>{" "}
             de desenvolvedor
           </h2>
@@ -132,37 +132,40 @@ export function Welcome() {
           <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
             <CardHeader>
               <CardTitle className="flex item-center justify-between">
-                Free
+                Meu projeto favorito
                 <Badge variant="secondary" className="text-sm text-primary">
-                  Most popular
+                  Destaque
                 </Badge>
               </CardTitle>
               <div>
-                <span className="text-3xl font-bold">$0</span>
-                <span className="text-muted-foreground"> /month</span>
+                <span className="text-2xl font-bold">
+                  Gerenciador de Transportadora
+                </span>
               </div>
 
-              <CardDescription>
-                Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.
+              <CardDescription className="mt-2">
+                Sistema para controle logístico de transportadoras.
               </CardDescription>
             </CardHeader>
 
             <CardContent>
-              <Button className="w-full">Start Free Trial</Button>
+              <a href="#blog-ia" className="block w-full">
+                <Button className="w-full hover:cursor-pointer">Ver detalhes</Button>
+              </a>
             </CardContent>
 
             <hr className="w-4/5 m-auto mb-4" />
-
           </Card>
 
           {/* Service */}
           <Card className="absolute w-[350px] -right-[10px] bottom-[35px]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
             <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">
               <div className="mt-1 bg-primary/20 p-1 rounded-2xl">
-                <Lightbulb />
+                {/* <Lightbulb /> */}
+                <Code2 />
               </div>
               <div>
-                <CardTitle>Light & dark mode</CardTitle>
+                <CardTitle>Qualidade no código</CardTitle>
                 <CardDescription className="text-md mt-2">
                   Lorem ipsum dolor sit amet consect adipisicing elit.
                   Consectetur natusm.
