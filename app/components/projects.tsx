@@ -6,9 +6,10 @@ return(
     <section className="">
         <h1 className="flex flex-row justify-center font-bold text-2xl">PROJETOS</h1>
         <div className="flex flex-row justify-around space-y-10">
+            <a href="https://github.com/Matheusclay/Eletiva4_FabricadeMoveis">
             <Card className="space-x-3 w-80 h-80 p-10 shadow-xl/30 grid content-center">
                 <div className="flex flex-row justify-center">
-                <a href="https://github.com/Matheusclay/Eletiva4_FabricadeMoveis"><Github className="w-5 h-5"></Github></a>
+                <Github className="w-5 h-5"></Github>
                 </div>
                 <CardTitle className="flex flex-row justify-center">Gerenciador de Fábrica de Móveis</CardTitle>
                 <CardDescription className="flex flex-row justify-center text-justify">
@@ -16,9 +17,11 @@ return(
                 </CardDescription>
 
             </Card>
+            </a>
+            <a href="https://github.com/pablo-sa10/Estudio-de-danca">
             <Card className="space-x-3 w-80 h-80 p-10 shadow-xl/30 grid content-center">
                 <div className="flex flex-row justify-center">
-                <a href="https://github.com/pablo-sa10/Estudio-de-danca"><Github className="w-5 h-5"></Github></a>
+                <Github className="w-5 h-5"></Github>
                 </div>
                 <CardTitle className="flex flex-row justify-center">Gerenciador de Estúdio de Dança</CardTitle>
                 <CardDescription className="flex flex-row justify-center text-justify">
@@ -26,9 +29,11 @@ return(
                 </CardDescription>
                 
             </Card>
+            </a>
+            <a href="https://github.com/pedrohcornetti/EstudioDeTatuagem">
             <Card className="space-x-3 w-80 h-80 p-10 shadow-xl/30 grid content-center">
                 <div className="flex flex-row justify-center">
-                <a href="https://github.com/pedrohcornetti/EstudioDeTatuagem"><Github className="w-5 h-5"></Github></a>
+                <Github className="w-5 h-5"></Github>
                 </div>
                 <CardTitle className="flex flex-row justify-center">Gerenciador de Estúdio de Tatuagem</CardTitle>
                 <CardDescription className="flex flex-row justify-center text-justify">
@@ -36,11 +41,13 @@ return(
                 </CardDescription>
           
             </Card>
+            </a>
         </div>
         <div className="flex flex-row justify-around space-y-10">
+            <a href="https://github.com/esmerdel/EmpresaConstrucao">
             <Card className="space-x-3 w-80 h-80 p-10 shadow-xl/30 grid content-center">
                 <div className="flex flex-row justify-center">
-                <a href="https://github.com/esmerdel/EmpresaConstrucao"><Github className="w-5 h-5"></Github></a>
+                <Github className="w-5 h-5"></Github>
                 </div>
                 <CardTitle className="flex flex-row justify-center">Gerenciador de Empresa de Construção</CardTitle>
                 <CardDescription className="flex flex-row justify-center text-justify">
@@ -48,9 +55,11 @@ return(
                 </CardDescription>
                 
             </Card>
+            </a>
+            <a href="https://github.com/Deigosz/agviagens">
             <Card className="space-x-3 w-80 h-80 p-10 shadow-xl/30 grid content-center">
                 <div className="flex flex-row justify-center">
-                <a href="https://github.com/Deigosz/agviagens"><Github className="w-5 h-5"></Github></a>
+                <Github className="w-5 h-5"></Github>
                 </div>
                 <CardTitle className="flex flex-row justify-center">Gerenciador de Agência de Viagens</CardTitle>
                 <CardDescription className="flex flex-row justify-center text-justify">
@@ -58,9 +67,11 @@ return(
                 </CardDescription>
                 
             </Card>
+            </a>
+            <a href="https://github.com/LucasSantz1/PHP-FATEC/tree/main/Linguagem%20de%20Programa%C3%A7%C3%A3o%20IV/CentralDeEventos">
             <Card className="space-x-3 w-80 h-80 p-10 shadow-xl/30 grid content-center">
                 <div className="flex flex-row justify-center">
-                <a href="https://github.com/LucasSantz1/PHP-FATEC/tree/main/Linguagem%20de%20Programa%C3%A7%C3%A3o%20IV/CentralDeEventos"><Github className="w-5 h-5"></Github></a>
+                <Github className="w-5 h-5"></Github>
                 </div>
                 <CardTitle className="flex flex-row justify-center">Gerenciador Central de Eventos</CardTitle>
                 <CardDescription className="flex flex-row justify-center text-justify">
@@ -68,12 +79,15 @@ return(
                 </CardDescription>
                 
             </Card>
+            </a>
             
         </div>
         <div className="flex flex-row justify-center space-y-10">
+            <a href="https://github.com/EdyFS/projetotransportadora">
             <Card className="space-x-3 w-80 h-80 p-10 shadow-xl/30 grid content-center">
+            
                 <div className="flex flex-row justify-center">
-                <a href="https://github.com/EdyFS/projetotransportadora"><Github className="w-5 h-5 "></Github></a>
+                <Github className="w-5 h-5 "></Github>
                 </div>
                 <CardTitle className="flex flex-row justify-center">Gerenciador de Transportadora</CardTitle>
                 <CardDescription className="flex flex-row justify-center text-justify">
@@ -81,6 +95,7 @@ return(
                 </CardDescription>
                 
             </Card>
+            </a>
             
         </div>
     </section>
