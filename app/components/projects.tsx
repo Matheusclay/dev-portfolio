@@ -3,8 +3,8 @@ import { Github } from "lucide-react";
 
 export function Projects(){
 return(
-    <section className="">
-        <h1 className="flex flex-row justify-center font-bold text-2xl">PROJETOS</h1>
+    <section className="max-w-6xl mx-auto p-20">
+        <h1 className="flex flex-row justify-center font-bold text-2xl p-10">PROJETOS</h1>
         <div className="flex flex-row justify-around space-y-10">
             <a href="https://github.com/Matheusclay/Eletiva4_FabricadeMoveis" id="moveis">
             <Card className="space-x-3 w-80 h-80 p-10 shadow-xl/30 grid content-center">
