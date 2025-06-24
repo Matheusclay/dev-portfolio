@@ -4,6 +4,7 @@ import { Projects } from "./components/projects"
 import { SkillCard } from "./components/skills";
 import { Footer } from "./components/footer";
 import Image from "next/image";
+import {Sobremim} from "./components/Carrossel";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <MainMenu  />
       </div>
       <Welcome/>
+      <Sobremim/>
       <Projects />
       <SkillCard />
       <Footer />
