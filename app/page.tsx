@@ -1,7 +1,7 @@
 import { MainMenu } from "./components/MainMenu"
 import { Welcome } from "./Welcome";
 import { Projects } from "./components/projects"
-import { SkillCard } from "./components/skills";
+import { SkillsSection } from "./components/skills";
 import { Footer } from "./components/footer";
 import Image from "next/image";
 
@@ -13,7 +13,7 @@ export default function Home() {
       </div>
       <Welcome/>
       <Projects />
-      <SkillCard />
+      <SkillsSection />
       <Footer />
     </main>
   );
