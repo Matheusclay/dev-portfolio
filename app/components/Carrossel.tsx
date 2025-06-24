@@ -21,25 +21,25 @@ export function Sobremim() {
       titulo: "Experiência",
       descricao:
         "Tenho experiência com desenvolvimento web, utilizando tecnologias como React, Next.js, Laravel e bancos de dados relacionais.",
-      imagem: "/images/foto2.png",
+      imagem: "/images/pro.png",
     },
     {
       titulo: "Projetos",
       descricao:
         "Já participei de diversos projetos acadêmicos e pessoais. Sempre busco evoluir através de novos desafios.",
-      imagem: "/images/foto3.png",
+      imagem: "/images/pro2.png",
     },
     {
       titulo: "Formação",
       descricao:
         "Sou graduando em Análise e Desenvolvimento de Sistemas, com foco em backend e segurança da informação.",
-      imagem: "/images/foto4.png",
+      imagem: "/images/pro3.png",
     },
     {
       titulo: "Objetivo",
       descricao:
         "Meu objetivo é contribuir em equipes de desenvolvimento, aprender constantemente e crescer profissionalmente.",
-      imagem: "/images/foto5.png",
+      imagem: "/images/pro4.png",
     },
   ];
 
