@@ -1,5 +1,3 @@
-// app/components/SkillCard.tsx
-import Image from "next/image"
 import {
   Card,
   CardHeader,
@@ -8,23 +6,18 @@ import {
   CardContent,
 } from "@/components/ui/card"
 
+
 interface SkillCardProps {
-  image: string
+  icon: React.ReactNode
   name: string
   description: string
 }
 
-export function SkillCard({ image, name, description }: SkillCardProps) {
+export function SkillCard({ icon, name, description }: SkillCardProps) {
   return (
     <Card className="items-center text-center hover:bg-foreground hover:text-background transition-colors duration-200">
       <CardHeader className="flex flex-col items-center">
-        <Image
-          src={image}
-          alt={name}
-          width={48}
-          height={48}
-          className="mb-2"
-        />
+        <div className="mb-2 w-12 h-12">{icon}</div>
         <CardTitle>{name}</CardTitle>
       </CardHeader>
       <CardContent>
