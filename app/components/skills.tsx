@@ -46,13 +46,6 @@ export function SkillCard() {
             className="p-6 flex flex-col items-center text-center hover:bg-foreground hover:text-background transition-colors duration-200"
           >
             <CardHeader className="flex flex-col items-center">
-              <Image
-                src={skill.image}
-                alt={skill.name}
-                width={48}
-                height={48}
-                className="mb-2"
-              />
               <CardTitle>{skill.name}</CardTitle>
             </CardHeader>
             <CardContent>
