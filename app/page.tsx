@@ -5,6 +5,7 @@ import { SkillsSection } from "./components/skills";
 import { Footer } from "./components/footer";
 import Image from "next/image";
 import {Sobremim} from "./components/Carrossel";
+import {Video} from "./components/video";
 
 export default function Home() {
   return (
@@ -15,7 +16,9 @@ export default function Home() {
       <Welcome/>
       <Sobremim/>
       <Projects />
+      <SkillCard />
       <SkillsSection />
+      <Video />
       <Footer />
     </main>
   );
