@@ -1,37 +1,31 @@
-import Image from "next/image"
-import {
-  Card,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-  CardContent,
-} from "@/components/ui/card"
+import { SkillCard } from "@/components/ui/skillCard"
+import { Code, Cpu, Library, Palette, Settings2 } from "lucide-react"
 
-export function SkillCard() {
+export function SkillsSection() {
   const skills = [
     {
       name: "React",
-    //   image: "/logos/react.png",
+      icon: <Library className="w-full h-full" />,
       description: "Biblioteca para construção de interfaces modernas.",
     },
     {
       name: "Next.js",
-    //   image: "/logos/nextjs.png",
+      icon: <Cpu className="w-full h-full" />,
       description: "Framework React com SSR, SSG e rotas de API.",
     },
     {
       name: "TypeScript",
-    //   image: "/logos/typescript.png",
+      icon: <Code className="w-full h-full" />,
       description: "Tipagem estática para maior segurança em JS.",
     },
     {
       name: "Tailwind CSS",
-    //   image: "/logos/tailwind.png",
+      icon: <Palette className="w-full h-full" />,
       description: "Framework utilitário para criação rápida de layouts.",
     },
     {
       name: "ShadCN/UI",
-    //   image: "/logos/shadcn.png",
+      icon: <Settings2 className="w-full h-full" />,
       description: "Componentes acessíveis com estilização via Tailwind.",
     },
   ]
@@ -41,17 +35,12 @@ export function SkillCard() {
       <h2 className="text-2xl font-bold text-center mb-10">SKILLS</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-6">
         {skills.map((skill, index) => (
-          <Card
+          <SkillCard
             key={index}
-            className="p-6 flex flex-col items-center text-center hover:bg-foreground hover:text-background transition-colors duration-200"
-          >
-            <CardHeader className="flex flex-col items-center">
-              <CardTitle>{skill.name}</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <CardDescription>{skill.description}</CardDescription>
-            </CardContent>
-          </Card>
+            icon={skill.icon}
+            name={skill.name}
+            description={skill.description}
+          />
         ))}
       </div>
     </section>
