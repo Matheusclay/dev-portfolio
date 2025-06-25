@@ -6,7 +6,7 @@ import { Footer } from "./components/footer";
 import { AssistantBot } from "./components/Assistant-bot"
 import Image from "next/image";
 import {Sobremim} from "./components/Carrossel";
-import { SkillCard } from "@/components/ui/skillCard";
+import {Video} from "./components/video";
 
 export default function Home() {
   return (
@@ -19,6 +19,7 @@ export default function Home() {
       <Projects />
       <SkillsSection />
       <AssistantBot />
+      <Video />
       <Footer />
       
     </main>
