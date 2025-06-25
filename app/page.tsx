@@ -17,9 +17,8 @@ export default function Home() {
       <Welcome/>
       <Sobremim/>
       <Projects />
-      <SkillCard />
-      <AssistantBot />
       <SkillsSection />
+      <AssistantBot />
       <Footer />
       
     </main>
