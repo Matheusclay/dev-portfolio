@@ -3,6 +3,7 @@ import { Welcome } from "./Welcome";
 import { Projects } from "./components/projects"
 import { SkillsSection } from "./components/skills";
 import { Footer } from "./components/footer";
+import { AssistantBot } from "./components/Assistant-bot"
 import Image from "next/image";
 import {Sobremim} from "./components/Carrossel";
 import {Video} from "./components/video";
@@ -16,10 +17,11 @@ export default function Home() {
       <Welcome/>
       <Sobremim/>
       <Projects />
-      <SkillCard />
       <SkillsSection />
+      <AssistantBot />
       <Video />
       <Footer />
+      
     </main>
   );
 }

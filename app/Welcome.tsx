@@ -46,7 +46,7 @@ export function Welcome() {
           <Card className="absolute w-[340px] -top-[15px] drop-shadow-xl shadow-black/10 dark:shadow-white/10">
             <CardHeader className="flex flex-row items-center gap-4 pb-2">
               <Avatar>
-                <AvatarImage alt="" src="https://github.com/shadcn.png" />
+                <AvatarImage alt="" src="https://github.com/shadcn.png" />  
                 <AvatarFallback>SH</AvatarFallback>
               </Avatar>
 
