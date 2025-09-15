@@ -1,4 +1,4 @@
-import { Hero, About } from "@/components/sections";
+import { Hero, About, Skills } from "@/components/sections";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -11,6 +11,7 @@ export default function Home() {
     <div>
       <Hero />
       <About />
+      <Skills />
     </div>
   );
 }
