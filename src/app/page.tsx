@@ -1,4 +1,4 @@
-import { Hero, About, Skills } from "@/components/sections";
+import { Hero, About, Skills } from "@/app/components";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
